@@ -1,0 +1,5 @@
+.husky/
+dist/
+build/
+postcss.config.js
+tailwind.config.js
