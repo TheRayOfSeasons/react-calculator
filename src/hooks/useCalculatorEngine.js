@@ -15,7 +15,7 @@ const useCalculatorEngine = () => {
     }
   }, 'none');
 
-  const operationDisplay = useMemo(() => operations.join(' '), [operations]);
+  const operationDisplay = useMemo(() => operations.join(''), [operations]);
 
   const result = useMemo(() => {
     let value = 0;
